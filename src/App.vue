@@ -8,11 +8,12 @@
 </template>
 
 <script>
-import Users from './16b_Nesting_Component.vue'
+import Users from './16c_Nesting_CSS_scoped.vue'
 
 export default {
   components: {
-    Users
+    'Users': Users
+    // Users
   },
   data(){
     return {
@@ -22,5 +23,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+h1 {
+  color: lightcyan;
+  background-color: blue
+}
 </style>
