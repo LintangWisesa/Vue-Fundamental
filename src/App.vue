@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import anak from './17b_Receive_Props.vue'
+import anak from './17b_Child_Receive_Props.vue'
 
 export default {
   components: {
