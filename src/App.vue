@@ -2,7 +2,7 @@
   <div>
     <h1>Props</h1>
     <p>Data from parent to child component</p>
-    <child v-bind:pesan="message"/>
+    <child v-bind:pesan="message" v-bind:nama='users'/>
   </div>
 </template>
 
@@ -15,7 +15,8 @@ export default {
   },
   data(){
     return {
-      message: 'Halo, this is from Parent File!' 
+      message: 'Halo, this is from Parent File!',
+      users: ['Andi', 'Budi', 'Caca'] 
     }
   }
 }
