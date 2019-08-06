@@ -1,29 +1,74 @@
-# vue_lintang
+# Vue Fundamentals
 
-## Project setup
-```
-npm install
-```
+## ⭐ Getting Started
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- ### Install ```vue-cli``` package
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    ```
+    $ npm i -g @vue/cli
+    ```
 
-### Run your tests
-```
-npm run test
-```
+- ### Initialize a vue project
 
-### Lints and fixes files
-```
-npm run lint
-```
+    ```
+    $ vue create projectName
+    // choose default
+    ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- ### Run a vue project
+
+    ```
+    $ cd projectName
+    $ npm run serve
+    ```
+
+- ### Check for errors
+
+    ```
+    $ npm run lint
+    ```
+
+#
+
+## ⭐ This project setup
+
+- ### Clone this repo & install all dependencies
+
+    ```
+    $ git clone https://github.com/LintangWisesa/Vue-Fundamental.git
+    $ npm install
+    ```
+
+- ### Compiles and hot-reloads for development
+    ```
+    $ npm run serve
+    ```
+
+- ### Compiles and minifies for production
+    ```
+    $ npm run build
+    ```
+
+- ### Run your tests
+    ```
+    $ npm run test
+    ```
+
+- ### Lints and fixes files
+    ```
+    $ npm run lint
+    ```
+
+- ### Customize configuration
+    See [Configuration Reference](https://cli.vuejs.org/config/).
+
+#
+
+#### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
+
+[Facebook](https://www.facebook.com/lintangbagus) | 
+[Twitter](https://twitter.com/Lintang_Wisesa) |
+[Google+](https://plus.google.com/u/0/+LintangWisesa1) |
+[Youtube](https://www.youtube.com/user/lintangbagus) | 
+:octocat: [GitHub](https://github.com/LintangWisesa) |
+[Hackster](https://www.hackster.io/lintangwisesa)
