@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Nesting Component</h1>
-    <ul v-for="user in users">
+    <ul v-for="(user, i) in users" :key="i">
         <li>{{ user }}</li>
     </ul>
     <hr>
