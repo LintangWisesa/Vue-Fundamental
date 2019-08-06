@@ -2,7 +2,7 @@
   <div>
     <button v-on:click="get">Klik</button>
     <ul>
-      <li v-for="x in dataout">
+      <li v-for="(x, i) in dataout" :key="i">
         {{ x.id }} {{ x.title }}
       </li>
     </ul>
@@ -27,7 +27,6 @@ export default {
     }
   }
 }
-/* eslint-disable */
 </script>
 
 <style>
