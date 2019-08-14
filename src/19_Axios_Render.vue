@@ -24,6 +24,9 @@ export default {
         console.log(x.data)
         this.dataout = x.data
       })
+      .catch(()=>{
+        alert('Failed to get the data 😭')
+      })
     }
   }
 }

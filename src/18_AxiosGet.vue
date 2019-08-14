@@ -13,6 +13,9 @@ export default {
       .then((x)=>{
         console.log(x.data)
       })
+      .catch(()=>{
+        alert('Failed to get the data 😭')
+      })
     }
   }
 }
